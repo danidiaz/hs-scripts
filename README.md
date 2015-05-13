@@ -13,5 +13,11 @@ functionality.
 
 Add your Haskell scripts to the repo, in the scripts subfolder.
 
-Execute a script from with "hs YourScriptModuleName".  ("hs Script" for the
-example script.)
+Execute a script from anywhere with "hs MyScript".
+
+And what if I want a compiled version of my script?
+===================================================
+
+cd into the repo, and execute:
+
+cabal exec -- ghc -main-is MyScript -o MyScript scripts\MyScript.hs
