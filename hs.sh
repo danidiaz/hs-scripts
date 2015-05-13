@@ -9,4 +9,4 @@ while [ -h "$SOURCE" ]; do
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-cabal --sandbox-config-file="$DIR/cabal.sandbox.config" exec -- runghc -- -i"$DIR" $1 $2 $3 $4 $5 $6 $7 $8 $9
+cabal --sandbox-config-file="$DIR/cabal.sandbox.config" exec -- runghc -- -i"$DIR/scripts" $1 $2 $3 $4 $5 $6 $7 $8 $9
