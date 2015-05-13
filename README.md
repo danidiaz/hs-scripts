@@ -20,4 +20,4 @@ And what if I want a compiled version of my script?
 
 cd into the repo, and execute:
 
-cabal exec -- ghc -main-is MyScript -o MyScript scripts\MyScript.hs
+cabal exec -- ghc -main-is MyScript scripts\MyScript.hs
