@@ -41,6 +41,7 @@ library
         bytestring >= 0.10.4.0,
         text >= 0.11.2 && < 1.2.1,
         wai-extra,
+        wai-app-static >= 3.1.0,
         network,
         http-types,
         scotty >= 0.9.1,
