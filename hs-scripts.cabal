@@ -65,7 +65,7 @@ library
         pipes-attoparsec,
         pipes-aeson,
         pipes-csv,
-        --pipes-vector >= 0.6,
+        pipes-vector >= 0.6.1,
         foldl >= 1.0.10,
         turtle,
         resourcet,
